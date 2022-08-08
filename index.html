@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dante Misner Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/429472780e.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo orange.png" alt="site logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+    <!-- ---------center page text---------- --> 
+
+        <div class="text-box">
+            <h1>Dante Misner</h1>
+            <p>From concept to product.</p>     
+
+            <a href="portfolio.html"class=hero-btn>View Portfolio</a>
+            
+        </div>
+        
+
+        <section class="footer">
+            <h5> &copy; 2022 Dante Misner</h5>
+        </section>
+    </section>
+
+
+
+<!-- ----------footer----------- -->
+
+
+
+
+
+
+
+
+
+
+
+   <!-- ------------ adds javascript for header menu ------------ -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+</html>
