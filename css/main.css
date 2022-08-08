@@ -15,7 +15,7 @@ body {
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(/images/Misner_D_1.jpg);
+    background-image: url(../images/Misner_D_1.jpg);
     background-position: center;
     background-size: cover;
     position:relative;
@@ -336,7 +336,7 @@ h3 {
 .cta {
     margin: 100px auto;
     width: 80%;
-    background-image: url(/images/pexels-alex-conchillos-3745234.jpg);
+    background-image: url(../images/pexels-alex-conchillos-3745234.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -399,7 +399,7 @@ h3 {
 .sub-header-about {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(/images/Misner_D_6.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(../images/Misner_D_6.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -446,7 +446,7 @@ h3 {
 .sub-header-contact {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(/images/Misner_D_7.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(../images/Misner_D_7.jpg);
     background-size: cover;
     text-align: center;
     color: white;
