@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +11,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/429472780e.js" crossorigin="anonymous"></script>
-    
+
 </head>
+
 <body>
     <section class="header">
         <nav>
-            <a href="index.html"><img src="images/logo orange.png" alt="site logo"></a>
+            <a href="index.html"> <img src="images/logo-orange.png" alt="site logo"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
@@ -27,17 +29,17 @@
             </div>
             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
-        
-    <!-- ---------center page text---------- --> 
+
+        <!-- ---------center page text---------- -->
 
         <div class="text-box">
             <h1>Dante Misner</h1>
-            <p>From concept to product.</p>     
+            <p>From concept to product.</p>
 
-            <a href="portfolio.html"class=hero-btn>View Portfolio</a>
-            
+            <a href="portfolio.html" class=hero-btn>View Portfolio</a>
+
         </div>
-        
+
 
         <section class="footer">
             <h5> &copy; 2022 Dante Misner</h5>
@@ -46,7 +48,7 @@
 
 
 
-<!-- ----------footer----------- -->
+    <!-- ----------footer----------- -->
 
 
 
@@ -58,18 +60,20 @@
 
 
 
-   <!-- ------------ adds javascript for header menu ------------ -->
+    <!-- ------------ adds javascript for header menu ------------ -->
     <script>
         var navLinks = document.getElementById("navLinks");
 
-        function showMenu(){
+        function showMenu() {
             navLinks.style.right = "0";
         }
-        function hideMenu(){
+
+        function hideMenu() {
             navLinks.style.right = "-200px";
         }
     </script>
 
 
 </body>
+
 </html>
