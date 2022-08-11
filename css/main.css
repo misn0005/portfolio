@@ -1,10 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     color: white;
     /* background-color: #212121; */
 
+}
+
+.skip-links ul {
+    list-style: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    background-color: black;
+    color: white;
+    padding: .5em 1em;
+    font-weight: bold;
+}
+
+.skip-links a:focus {
+    top: 0;
 }
 
 body {
@@ -18,7 +35,7 @@ body {
     background-image: url(../images/Misner_D_1.jpg);
     background-position: center;
     background-size: cover;
-    position:relative;
+    position: relative;
 }
 
 
@@ -29,7 +46,7 @@ nav {
     align-items: center;
 }
 
-nav img{
+nav img {
     width: 150px;
 }
 
@@ -129,12 +146,12 @@ nav .fa-bars {
     }
 
     .nav-links ul li {
-        display: block; 
+        display: block;
     }
 
     .nav-links {
         position: fixed;
-        background:#212121;
+        background: #212121;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -144,7 +161,7 @@ nav .fa-bars {
         transition: 1s;
     }
 
-    nav .fa-xmark{
+    nav .fa-xmark {
         display: block;
         color: white;
         margin: 10px;
@@ -152,7 +169,7 @@ nav .fa-bars {
         cursor: pointer;
     }
 
-    nav .fa-bars{
+    nav .fa-bars {
         display: block;
         color: white;
         margin: 10px;
@@ -164,7 +181,7 @@ nav .fa-bars {
         padding: 30px;
     }
 
-    .row{
+    .row {
         flex-direction: column;
     }
 }
@@ -184,7 +201,7 @@ h1 {
     font-weight: 600;
 }
 
-p{
+p {
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
@@ -202,8 +219,8 @@ h3 {
     margin: 10px 0;
 }
 
-.course-col:hover{
-    box-shadow: 0 0 20px 0px  rgba(0, 0, 0, 0.2);
+.course-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 /* @media(max-width: 700px) {
@@ -238,7 +255,7 @@ h3 {
     display: block;
 }
 
-.projects-col h2{
+.projects-col h2 {
     margin-bottom: 1rem;
 }
 
@@ -264,7 +281,7 @@ h3 {
     width: 100%;
     position: absolute;
     top: 0;
-    left:0;
+    left: 0;
     transition: 0.5s;
 }
 
@@ -351,17 +368,18 @@ h3 {
 }
 
 @media(max-width: 700px) {
-   
+
     .cta h1 {
         font-size: 24px;
     }
+
     .projects-col {
         margin: 5%;
     }
 
-    .flow-col{
-    margin-bottom: 10%;
-}
+    .flow-col {
+        margin-bottom: 10%;
+    }
 
     .flow-col p {
         margin-bottom: 5%;
@@ -384,14 +402,16 @@ h3 {
     text-align: left;
 }
 
-.fa-instagram,.fa-twitter, .fa-facebook-f{
-    color:#F7941D;
+.fa-instagram,
+.fa-twitter,
+.fa-facebook-f {
+    color: #F7941D;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
     font-size: 2rem;
-    
-    }
+
+}
 
 
 /* --------------about page-------------- */
@@ -399,7 +419,7 @@ h3 {
 .sub-header-about {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(../images/Misner_D_6.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/Misner_D_6.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -446,7 +466,7 @@ h3 {
 .sub-header-contact {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(../images/Misner_D_7.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/Misner_D_7.jpg);
     background-size: cover;
     text-align: center;
     color: white;
@@ -460,7 +480,8 @@ h3 {
 
 
 
-.contact-col input, .contact-col textarea {
+.contact-col input,
+.contact-col textarea {
     width: 100%;
     padding: 15px;
     margin-bottom: 17px;
@@ -469,9 +490,8 @@ h3 {
     box-sizing: border-box;
 }
 
-input, textarea {
+input,
+textarea {
     color: #212121;
-  
-  }
 
-
+}
