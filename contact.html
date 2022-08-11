@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +11,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/429472780e.js" crossorigin="anonymous"></script>
-    
+
 </head>
+
 <body>
+
+    <div class="skip-links" id="top">
+        <ul>
+            <li><a href="#navLinks">Skip to main nav"</a></li>
+            <li><a href="#form">Skip to contact form"</a></li>
+        </ul>
+    </div>
     <section class="sub-header-contact">
         <nav>
-            <a href="index.html"><img src="images/logo orange.png" alt="site logo"></a>
+            <a href="index.html"><img src="images/logo-orange.png" alt="site logo"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
@@ -30,14 +39,14 @@
 
         <h1>Contact Me</h1>
     </section>
-    
+
     <!-- -------------contact us --------------- -->
 
-<section class="contact-us">
+    <section class="contact-us" id="form">
 
         <div class="contact-col">
 
-            <form action="">
+            <form>
                 <input type="text" placeholder="Enter your name" required>
                 <input type="email" placeholder="Enter email address" required>
                 <input type="text" placeholder="Enter your subject" required>
@@ -48,35 +57,35 @@
                 <i class="fa-brands fa-facebook-f"></i>
             </form>
 
-
-
         </div>
-    </div>
 
 
 
-</section>
 
-        
-
-<!-- ----------footer----------- -->
-<section class="footer">
-    <h5> &copy; 2022 Dante Misner</h5>
-</section>
+    </section>
 
 
-   <!-- ------------ adds javascript for header menu ------------ -->
+
+    <!-- ----------footer----------- -->
+    <section class="footer">
+        <h5> &copy; 2022 Dante Misner</h5>
+    </section>
+
+
+    <!-- ------------ adds javascript for header menu ------------ -->
     <script>
         var navLinks = document.getElementById("navLinks");
 
-        function showMenu(){
+        function showMenu() {
             navLinks.style.right = "0";
         }
-        function hideMenu(){
+
+        function hideMenu() {
             navLinks.style.right = "-200px";
         }
     </script>
 
 
 </body>
+
 </html>
