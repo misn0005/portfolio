@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +11,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/429472780e.js" crossorigin="anonymous"></script>
-    
+
 </head>
+
 <body>
+    <div class="skip-links" id="top">
+        <ul>
+            <li><a href="#navLinks">Skip to main nav"</a></li>
+            <li><a href="#projects">Skip to projects"</a></li>
+            <li><a href="#workflow">Skip to workflow"</a></li>
+            <li><a href="#contact-btn">Skip to contact button"</a></li>
+        </ul>
+    </div>
     <section>
         <nav>
-            <a href="index.html"><img src="images/logo orange.png" alt="site logo"></a>
+            <a href="index.html"><img src="images/logo-orange.png" alt="site logo"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
@@ -28,105 +38,108 @@
             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
     </section>
-    
 
-<!-- ---------------projects---------------- -->
 
-<section class="projects">
-    <h1>Dante Misner</h1>
-    <h3>View some of my previous projects!</h3>
+    <!-- ---------------projects---------------- -->
 
-    <div class="row">
-        <div class="projects-col">
-            <!-- <h2>Photography</h2>
+    <section class="projects" id="projects">
+        <h1>Dante Misner</h1>
+        <h3>View some of my previous projects!</h3>
+
+        <div class="row">
+            <div class="projects-col">
+                <!-- <h2>Photography</h2>
             <a href="contact.html" class="hero-btn">View</a> -->
-            <img src="images/pexels-josh-hild-4424567.jpg">
-            <div class="layer">
-                <h3>Photography</h3>
+                <img src="images/pexels-josh-hild-4424567.jpg" alt="hand holding camera">
+                <div class="layer">
+                    <h3>Photography</h3>
+                </div>
+            </div>
+            <div class="projects-col">
+                <!-- <h2>Video Production</h2>
+        <a href="contact.html" class="hero-btn">View</a> -->
+                <img src="images/pexels-kyle-loftus-3379934.jpg" alt="dark room holding video equipment">
+                <div class="layer">
+                    <h3>Video Production</h3>
+                </div>
+            </div>
+            <div class="projects-col">
+                <!-- <h2>Web Design</h2>
+        <a href="contact.html" class="hero-btn">View</a> -->
+                <img src="images/pexels-pixabay-270360.jpg" alt="computer screen with code">
+                <div class="layer">
+                    <h3>Responsive Web Design</h3>
+                </div>
+            </div>
+            <div class="projects-col">
+                <!-- <h2>UX Design</h2>
+        <a href="contact.html" class="hero-btn">View</a> -->
+                <img src="images/pexels-picjumbocom-196644.jpg" alt="notepad and phone on desk">
+                <div class="layer">
+                    <h3>User Experience Design</h3>
+                </div>
             </div>
         </div>
-    <div class="projects-col">
-        <!-- <h2>Video Production</h2>
-        <a href="contact.html" class="hero-btn">View</a> -->
-        <img src="images/pexels-kyle-loftus-3379934 - copy.jpg">
-        <div class="layer">
-            <h3>Video Production</h3>
+
+    </section>
+
+    <!-- --------flow-------- -->
+
+    <section class="flow" id="workflow">
+        <h1>Workflow</h1>
+        <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> -->
+
+
+
+        <div class="row">
+            <div class="flow-col">
+                <img src="images/pexels-anete-lusina-4792509-2.jpg" alt="holding lightbulb">
+                <h3>Conceptualize</h3>
+                <p>Creating a design brief to get your ideas organized and deliverables oganized</p>
+            </div>
+            <div class="flow-col">
+                <img src="images/pexels-ovan-57690.jpg" alt="designing on paper">
+                <h3>Design</h3>
+                <p>Crafting and iterating design mock-ups until the product is as good as you envisioned.</p>
+            </div>
+            <div class="flow-col">
+                <img src="images/pexels-format-1029757.jpg" alt="finished site running on computer">
+                <h3>Implement</h3>
+                <p>Bring your ideas to life by implementing your ideas and design into tangible results.</p>
+            </div>
         </div>
-    </div>
-    <div class="projects-col">
-        <!-- <h2>Web Design</h2>
-        <a href="contact.html" class="hero-btn">View</a> -->
-        <img src="images/pexels-pixabay-270360 - copy.jpg">
-        <div class="layer">
-            <h3>Responsive Web Design</h3>
-        </div>
-    </div>
-    <div class="projects-col">
-        <!-- <h2>UX Design</h2>
-        <a href="contact.html" class="hero-btn">View</a> -->
-        <img src="images/pexels-picjumbocom-196644 - copy.jpg">
-        <div class="layer">
-            <h3>User Experience Design</h3>
-        </div>
-    </div> 
+    </section>
 
-</section>
 
-<!-- --------flow-------- -->
-
-<section class="flow">
-    <h1>Workflow</h1>
-    <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> -->
+    <!-- -------call to action-------- -->
+    <section class="cta" id="contact-btn">
+        <h1>Have an idea but <br> don't know where to start?</h1>
+        <a href="contact.html" class="hero-btn">Contact Me</a>
+    </section>
 
 
 
-<div class="row">
-    <div class="flow-col">
-        <img src="images/pexels-anete-lusina-4792509 - Copy.jpg" alt="holding lightbulb">
-        <h3>Conceptualize</h3>
-        <p>Creating a design brief to get your ideas organized and deliverables oganized</p>
-    </div>
-    <div class="flow-col">
-        <img src="images/pexels-ovan-57690 - Copy.jpg" alt="designing on paper">
-        <h3>Design</h3>
-        <p>Crafting and iterating design mock-ups until the product is as good as you envisioned.</p>
-    </div>
-    <div class="flow-col">
-        <img src="images/pexels-format-1029757 - Copy.jpg" alt="finished site running on computer">
-        <h3>Implement</h3>
-        <p>Bring your ideas to life by implementing your ideas and design into tangible results.</p>
-    </div>
-</div>
-</section>
+
+    <!-- ----------footer----------- -->
+    <section class="footer">
+        <h5> &copy; 2022 Dante Misner</h5>
+    </section>
 
 
-<!-- -------call to action-------- -->
-<section class="cta">
-    <h1>Have an idea but <br> don't know where to start?</h1>
-    <a href="contact.html" class="hero-btn">Contact Me</a>
-</section>
-
-
-        
-
-<!-- ----------footer----------- -->
-<section class="footer">
-    <h5> &copy; 2022 Dante Misner</h5>
-</section>
-
-
-   <!-- ------------ adds javascript for header menu ------------ -->
+    <!-- ------------ adds javascript for header menu ------------ -->
     <script>
         var navLinks = document.getElementById("navLinks");
 
-        function showMenu(){
+        function showMenu() {
             navLinks.style.right = "0";
         }
-        function hideMenu(){
+
+        function hideMenu() {
             navLinks.style.right = "-200px";
         }
     </script>
 
 
 </body>
+
 </html>
