@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +11,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/429472780e.js" crossorigin="anonymous"></script>
-    
+
 </head>
+
 <body>
+    <div class="skip-links" id="top">
+        <ul>
+            <li><a href="#navLinks">Skip to main nav"</a></li>
+            <li><a href="#about">Skip to about section"</a></li>
+            <li><a href="#footer">Skip to footer"</a></li>
+        </ul>
+    </div>
+
     <section class="sub-header-about">
         <nav>
-            <a href="index.html"><img src="images/logo orange.png" alt="site logo"></a>
+            <a href="index.html"><img src="images/logo-orange.png" alt="site logo"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
@@ -28,38 +38,40 @@
             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
 
-<!-- -----------about us-------------- -->
+        <!-- -----------about us-------------- -->
 
         <h1>About Me</h1>
     </section>
 
-    <section class="about-us">
+    <section class="about-us" id="about">
         <div class="row">
             <div class="about-col">
-                <h1>Designer. <br> 
+                <h1>Designer. <br>
                     Delevoper. <br>
                     Photographer.</h1>
                 <p>
-                    Dante Misner is an Algonquin College student studying in the field of Interactive Media Design. 
+                    Dante Misner is an Algonquin College student studying in the field of Interactive Media Design.
                     <br>
                     <br>
-                    Since a young age he’s had an eye for photography, but never took it farther than simply a side hobby. Using his phone, he and his friends would go around town and conduct mock-up photoshoots for fun and share them on his social media.
+                    Since a young age he’s had an eye for photography, but never took it farther than simply a side
+                    hobby. Using his phone, he and his friends would go around town and conduct mock-up photoshoots for
+                    fun and share them on his social media.
                     <br>
                     <br>
-                    Now, equipped with more professional equipment, Dante is ready to take his passion more seriously and capture the beauty of the world around him.
-                    
-                    <div class="icons">
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </div>
+                    Now, equipped with more professional equipment, Dante is ready to take his passion more seriously
+                    and capture the beauty of the world around him.
 
                 </p>
-                    
+                <div class="icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+
             </div>
-            
+
             <div class="about-col">
-                <img src="images/Misner_D_2.jpg">
+                <img src="images/Misner_D_2.jpg" alt="picture of me">
             </div>
         </div>
     </section>
@@ -68,24 +80,26 @@
 
 
 
-<!-- ----------footer----------- -->
-<section class="footer">
-    <h5> &copy; 2022 Dante Misner</h5>
-</section>
+    <!-- ----------footer----------- -->
+    <section class="footer" id="footer">
+        <h5> &copy; 2022 Dante Misner</h5>
+    </section>
 
 
-   <!-- ------------ adds javascript for header menu ------------ -->
+    <!-- ------------ adds javascript for header menu ------------ -->
     <script>
         var navLinks = document.getElementById("navLinks");
 
-        function showMenu(){
+        function showMenu() {
             navLinks.style.right = "0";
         }
-        function hideMenu(){
+
+        function hideMenu() {
             navLinks.style.right = "-200px";
         }
     </script>
 
 
 </body>
+
 </html>
